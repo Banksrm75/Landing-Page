@@ -4,11 +4,22 @@ import Card from './Card.jsx'
 const CardRow = () => {
 
     return (
-        <> /// fix so that when squished, they go back to one on top of each other
-            <div className="d-flex">
-                <Card />
-                <Card />
-                <Card />
+        <> 
+            <div class="row row-cols-1 row-cols-md-4 ">
+                <div class="col">
+                    <Card />
+                </div>
+                <div class="col">
+                    <Card />
+                </div>
+                <div class="col">
+                    <Card />
+                </div>
+                <div class="col">
+                    <Card />
+                </div>
+                
+                
             </div>
         </>
 
