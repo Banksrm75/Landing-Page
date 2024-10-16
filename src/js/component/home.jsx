@@ -9,7 +9,7 @@ import Footer from "./Footer.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<>   // Due Fri - Oct 18th
+		<>
 			<div className="row">
 				<div className="col-12">
 					<Navbar />
